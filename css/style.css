@@ -117,6 +117,12 @@ body {
     0px 1px 2px 0px rgba(0, 0, 0, 0.06);
 }
 
+.blog-card__thumbnail {
+  width: 100%;
+  height: 288px;
+  object-fit: cover;
+}
+
 .credits {
   color: #777;
   position: fixed;
