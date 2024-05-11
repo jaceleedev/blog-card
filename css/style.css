@@ -143,6 +143,14 @@ body {
   object-fit: cover;
 }
 
+.blog-card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  padding: 24px 16px;
+}
+
 .credits {
   color: #777;
   position: fixed;
