@@ -81,6 +81,26 @@
   line-height: 1.5rem;
 }
 
+/* Badge Component */
+.badge {
+  display: flex;
+  align-items: center;
+
+  width: 69px;
+  padding: 2px 8px;
+
+  color: var(--color-green-700);
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+
+  border-radius: 9999px;
+  border: 1px solid var(--color-green-200);
+  background: var(--color-green-50);
+}
+
 body {
   margin: 0;
   font-family: 'Noto Sans', system-ui, -apple-system, BlinkMacSystemFont,
