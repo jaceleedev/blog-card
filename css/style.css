@@ -1,5 +1,7 @@
 /* Put any custom CSS styles here.  */
 /* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+
+/* Colors */
 :root {
   --color-white: #ffffff;
   --color-indigo-700: #4338ca;
@@ -9,6 +11,23 @@
   --color-green-200: #bbf7d0;
   --color-green-50: #f0fdf4;
   --linear-page: linear-gradient(148deg, #f9fafb 8.89%, #d2d6db 100.48%);
+}
+
+/* Typography */
+.text-base,
+.text-lg {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 body {
