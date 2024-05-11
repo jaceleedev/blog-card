@@ -93,6 +93,18 @@ body {
   box-sizing: border-box;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100vw;
+  min-height: 100vh;
+  padding: 120px 0;
+
+  background-image: var(--color-linear-page);
+}
+
 .credits {
   color: #777;
   position: fixed;
