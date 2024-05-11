@@ -10,7 +10,11 @@
   --color-green-700: #15803d;
   --color-green-200: #bbf7d0;
   --color-green-50: #f0fdf4;
-  --linear-page: linear-gradient(148deg, #f9fafb 8.89%, #d2d6db 100.48%);
+  --color-linear-page: linear-gradient(148deg, #f9fafb 8.89%, #d2d6db 100.48%);
+
+  --color-button-hover: #3730a3;
+  --color-button-focus: #3730a3;
+  --color-button-disabled: #a3a3a3;
 }
 
 /* Typography */
@@ -28,6 +32,53 @@
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+/* Components */
+/* Button Component */
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+
+  line-height: 150%;
+  color: var(--color-indigo-700);
+
+  border-radius: 4px;
+}
+
+.button:hover {
+  color: var(--color-button-hover);
+}
+
+.button:focus {
+  color: var(--color-button-focus);
+
+  background-color: var(--color-white);
+  box-shadow: 0px 0px 0px 4px rgba(68, 76, 231, 0.12);
+}
+
+.button:disabled {
+  color: var(--color-button-disabled);
+}
+
+.button__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 88px;
+  padding: 0 2px;
+
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.button__arrow {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
 }
 
 body {
