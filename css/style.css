@@ -151,6 +151,17 @@ body {
   padding: 24px 16px;
 }
 
+.blog-card__content header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.blog-card__title {
+  color: var(--color-neutral-900);
+  font-weight: 600;
+}
+
 .credits {
   color: #777;
   position: fixed;
